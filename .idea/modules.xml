@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/www_GA_cat.iml" filepath="$PROJECT_DIR$/.idea/www_GA_cat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../www_MCA/.idea/www_MCA.iml" filepath="$PROJECT_DIR$/../www_MCA/.idea/www_MCA.iml" />
+    </modules>
+  </component>
+</project>

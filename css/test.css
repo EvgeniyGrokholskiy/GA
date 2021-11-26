@@ -1,0 +1,97 @@
+html {
+    font-size: 24px;
+}
+body {
+    font-size: 20px;
+}
+.section3 {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+}
+
+.section3_img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 440px) {
+    .section3 {
+        width: 735px;
+    }
+}
+
+
+/****/
+
+/**
+ul li { можо поставить список горизонтально с помощью float:left
+    display: block;
+    width: 100px;
+    height: 40px;
+    float: left;
+    line-height: 80px;
+    list-style: none;
+    margin: 0 20px;
+    text-align: center;
+    vertical-align: middle;
+}**/
+
+.form {
+    display: flex;
+    flex: 0 0 600px;
+    height: 100px;
+    background: darkblue;
+}
+
+.name_email {
+    flex: 0 0 275px;
+    background: saddlebrown;
+}
+
+.textarea {
+    flex: 0 0 295px;
+    background: seagreen;
+}
+
+.zzz {
+
+    height: 100px;
+
+}
+.client-text {
+    font-weight: bold;
+    color: blue;
+}
+
+.internet-text {
+    text-transform: uppercase;
+}
+
+.browser-text {
+    font-style: italic;
+    color: orange;
+}
+
+.server-text {
+    color: red;
+}
+
+.wrapper2 {
+    height: 300px;
+    display: flex;
+    background-color: lightgray;
+}
+
+.red {
+    width: 70%;
+    background: red;
+}
+
+.blue {
+    width: 70%;
+    height: 20px;
+    background: blue;
+    flex-shrink: 0;
+}

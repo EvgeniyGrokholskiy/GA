@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/home_page.css" type="text/css">
+    <link rel="stylesheet" href="css/test.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <title>test</title>
+</head>
+  <body>
+    <div id="wrapper">
+      <section>
+         <div class="section3">
+          <div class="section3_text">
+            <div class="text_on_blue">
+              <p class="white_text">
+                Our principal-led design and planning process will bring the efficiency, creativity, and attention that your project and team deserves.
+              </p>
+            </div>
+            <button class="meet_our_team_button" type="button"><a href="#">Meet Our Team</a> </button>
+          </div>
+          <img class="section3_img" src="img/GUIDE_ARCH_group_photo.png" alt="img/GUIDE_ARCH_group_photo.png" width="935"  height="608" title="Group_photo">
+        </div>
+      </section>
+    </div>
+
+
+    <script type="text/javascript">
+        function l_image (a) {
+            document .example_img.src = a;
+        }
+    </script>
+    <table style="width: 100%;">
+        <tr style="text-align: center; vertical-align: center;">
+            <td style="width: 50%;">
+                <a href="javascript:l_image('img/g3_big1-960x586.jpg')"><img src="img/g3_sample1-132x86.jpg"></a><br>
+                <a href="javascript:l_image('img/g3_big2-960x586.jpg')"><img src="img/g3_sample2-132x86.jpg"></a><br>
+                <a href="javascript:l_image('img/g3_big3-960x586.jpg')"><img src="img/g3_sample3-132x86.jpg"></a><br>
+                <a href="javascript:l_image('img/g3_big4-960x586.jpg')"><img src="img/g3_sample4-132x86.jpg"></a><br>
+            </td>
+            <td style="width: 50%;">
+                <img src="img/g3_big1-960x586.jpg" name="example_img"
+                     alt="Картинки для демонстрации работы скрипта смены изображений">
+            </td>
+        </tr>
+    </table>
+
+    <div class="row">
+        <div class="column">
+            <img src="img/g3_big1-960x586.jpg" alt="Nature" style="width:20%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="img/g3_sample2-132x86.jpg" alt="Snow"  onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="img/g3_sample3-132x86.jpg" alt="Mountains"  onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="img/g3_sample4-132x86.jpg" alt="Lights"  onclick="myFunction(this);">
+        </div>
+    </div>
+
+    <div class="container">
+
+        <img id="expandedImg" src="img/g3_big1-960x586.jpg" style="width:100%">
+        <div id="imgtext"></div>
+    </div>
+
+    <script>
+        function myFunction(imgs) {
+            var expandImg = document.getElementById("expandedImg");
+            expandImg.src = imgs.src;
+            expandImg.parentElement.style.display = "block";
+        }
+    </script>
+
+
+<ul>
+    <li>a</li>
+    <li>b</li>
+    <li>c</li>
+    <li>d</li>
+</ul>
+
+    <form action="select1.php" method="post">
+        <p><select size="3" multiple name="hero[]">
+            <option disabled>Выберите героя</option>
+            <option value="Чебурашка">Чебурашка</option>
+            <option selected value="Крокодил Гена">Крокодил Гена</option>
+            <option value="Шапокляк">Шапокляк</option>
+            <option value="Крыса Лариса">Крыса Лариса</option>
+        </select></p>
+        <p><input type="submit" value="Отправить"></p>
+    </form>
+
+
+<div class="form">
+    <div class="name_email">
+
+    </div>
+    <div class="textarea">
+
+    </div>
+</div>
+    <ul>
+        <li>Пункт первый</li>
+        <li>Пункт второй
+            <ol>
+                <li>Подпункт первый</li>
+                <li>Подпункт второй</li>
+            </ol>
+        </li>
+        <li>Пункт третий</li>
+    </ul>
+    <p>Нажмите <a href="about.html">сюда,</a> чтобы узнать больше о профессии фронтенд-разработчика</p>
+
+
+    <a href="https://duckduckgo.com/" target="myframe">DuckDuckGo</a>
+    <iframe src="http://example.com/" name="myframe"></iframe>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>Description of A</td>
+        </tr>
+        <tr>
+            <td>B</td>
+            <td>Description of B</td>
+        </tr>
+    </table>
+  <div class="zzz">
+      <p>Компьютер пользователя, который хочет получить доступ к информации, называют <span class="client-text">клиентом.</span> Большая часть домашних и офисных компьютеров — клиенты. Клиентом также называют программы, которые используют <span class="internet-text">Интернет</span> (<span class="browser-text">браузеры</span>, почтовые клиенты, читалки).</p>
+      <p>Компьютер, где расположена информация, называют <span class="server-text">сервером</span>. Это может быть как обычный домашний компьютер, так и целый комплекс специальных устройств.</p>
+
+
+      <p>Компьютер пользователя, который хочет получить доступ к информации, называют <span class="client-text">клиентом</span>. Большая часть домашних и офисных компьютеров — клиенты. Клиентом также называют программы, которые используют <span class="internet-text">Интернет</span> (<span class="browser-text">браузеры</span>, почтовые клиенты, читалки).</p>
+      <p>Компьютер, где расположена информация, называют <span class="server-text">сервером</span>. Это может быть как обычный домашний компьютер, так и целый комплекс специальных устройств.</p>
+  </div>
+    <div class="wrapper2">
+        <span class="red"></span>
+        <span class="blue"></span>
+    </div>
+
+  </body>
+</html>
